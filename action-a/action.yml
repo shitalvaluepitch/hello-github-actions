@@ -4,8 +4,6 @@ description: "Greet someone"
 
 author: "octocat@github.com"
 
-
-
 inputs:
 
   MY_NAME:
@@ -16,15 +14,11 @@ inputs:
 
     default: "World"
 
-
-
 runs:
 
   using: "docker"
 
   image: "Dockerfile"
-
-
 
 branding:
 
